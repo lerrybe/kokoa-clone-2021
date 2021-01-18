@@ -1,0 +1,6 @@
+:root {
+  --blue: rgb(37, 101, 208);
+  --green: rgb(25, 206, 96);
+  --horizontal-space: 25px;
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+}

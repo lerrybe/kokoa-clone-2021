@@ -1,0 +1,27 @@
+.icon-row {
+  display: grid;
+  grid-template-rows: 60px;
+  grid-template-columns: 60px 60px 60px 60px;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon-row__icon i {
+  font-size: 35px;
+}
+.icon-row__icon span {
+  margin-top: 20px;
+}
+#icon-row__lastbox {
+  margin-bottom: 70px;
+}
+.icon-row i:hover {
+  color: var(--green);
+  cursor: pointer;
+}

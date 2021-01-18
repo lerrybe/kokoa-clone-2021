@@ -1,0 +1,34 @@
+.main-screen__settings {
+  overflow: auto;
+  padding-top: 95px;
+}
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting {
+  opacity: 0.7;
+  font-size: 22px;
+}
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+.setting-column span {
+  padding-left: 10px;
+}
+.setting-column__addition {
+  font-size: 18px;
+  justify-content: flex-end;
+  color: var(--green);
+  opacity: 0.7;
+}
+.status-bar {
+  z-index: 2;
+}
+.alt-header {
+  z-index: 1;
+}
